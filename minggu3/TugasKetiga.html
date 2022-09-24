@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumpulan Video</title>
+    <script src="video.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: #5a9cfc;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      "
+    >
+      <div>
+        <h1
+          style="
+            margin: 0px;
+            padding: 10px;
+            color: #ebecff;
+            padding-bottom: 10px;
+          "
+        >
+          Kumpulan Video
+        </h1>
+        <p
+          style="
+            margin: 0px;
+            padding-left: 20px;
+            color: #ebecff;
+            font-size: 14px;
+          "
+        >
+          Dhea Sabilla - A11.2022.14102
+        </p>
+      </div>
+      <div style="margin-right: 70px">
+        <a
+          href="https://www.instagram.com/dhsbllaaa_/?igshid=YmMyMTA2M2Y%3D"
+          style="color: #5a9cfc"
+        >
+          <img
+            src="instagramm.png"
+            alt=""
+            width="30px"
+            height="30px"
+            style="margin-top: 35px"
+          />
+        </a>
+        <a href="https://github.com/DheaSabillaa" style="color: #5a9cfc">
+          <img
+            src="github.png"
+            alt=""
+            width="35px"
+            height="20px"
+            style="margin-bottom: 5px"
+          />
+        </a>
+        <a href="https://medium.com/@dheasabilla" style="color: #5a9cfc">
+          <img
+            src="medium.png"
+            alt=""
+            width="60px"
+            height="35px"
+            style="margin-top: 35px; margin-left: -5px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dhea-sabilla-470a531ba"
+          style="color: #5a9cfc"
+        >
+          <img
+            src="linkedln.png"
+            alt=""
+            width="35px"
+            height="35px"
+            style="margin-top: 35px; margin-left: -10px"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      style="
+        margin: 30px 100px;
+        background-color: 5a9cfc;
+        border-radius: 10px;
+        padding: 5px;
+        justify-content: center;
+      "
+    >
+      <div style="display: flex; justify-content: space-around">
+        <h1 style="color: #5a9cfc; margin-left: 370px; text-align: center">
+          Official Trailer ‘Miracle In Cell No 7’
+        </h1>
+        <div style="margin-right: 100px">
+          <img
+            src="LogoUdinus.jpg"
+            alt=""
+            width="70px"
+            height="70px"
+            style="margin-top: 10px"
+          />
+          <img
+            src="LogoUdinusFIK.png"
+            alt=""
+            width="70px"
+            height="70px"
+            style="margin-top: 15px; margin-left: 20px"
+          />
+        </div>
+      </div>
+      <hr width="400px" color=" #5a9cfc" />
+      <h3
+        style="
+          text-align: center;
+          margin-bottom: 20px;
+          color: #bbbbbb;
+          margin-top: -3px;
+        "
+      >
+        Video Dari Folder
+      </h3>
+      <div>
+        <figure id="videoContainer" data-fullscreen="false">
+          <video id="video" controls preload="metadata">
+            <source src="Miracle In Cell No 7.mp4" type="video/mp4" />
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src="sintel-en.vtt"
+              default
+            />
+            <track
+              label="Deutsch"
+              kind="subtitles"
+              srclang="de"
+              src="sintel-de.vtt"
+            />
+            <track
+              label="Español"
+              kind="subtitles"
+              srclang="es"
+              src="sintel-es.vtt"
+            />
+          </video>
+          <div id="video-controls" class="controls" data-state="hidden">
+            <button id="playpause" type="button" data-state="play">
+              Play/Pause
+            </button>
+            <button id="stop" type="button" data-state="stop">Stop</button>
+            <div class="progress">
+              <progress id="progress" value="0" min="0">
+                <span id="progress-bar"></span>
+              </progress>
+            </div>
+            <button id="mute" type="button" data-state="mute">
+              Mute/Unmute
+            </button>
+            <button id="volinc" type="button" data-state="volup">Vol+</button>
+            <button id="voldec" type="button" data-state="voldown">Vol-</button>
+            <button id="fs" type="button" data-state="go-fullscreen">
+              Fullscreen
+            </button>
+            <button id="subtitles" type="button" data-state="subtitles">
+              CC
+            </button>
+          </div>
+        </figure>
+      </div>
+      <div style="margin-top: 50px; text-align: center">
+        <h1 style="text-align: center; color: #5a9cfc">
+          Kumpulan Trailer Film Dari YouTobe
+        </h1>
+        <hr width="400px" color=" #5a9cfc" />
+        <h3
+          style="
+            text-align: center;
+            margin-bottom: 20px;
+            color: #bbbbbb;
+            margin-top: -3px;
+            margin-bottom: 30px;
+          "
+        >
+          Video Dari YouTobe
+        </h3>
+        <iframe
+          width="700"
+          height="400"
+          src="https://www.youtube.com/embed/yLIY-yaF9tE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div style="margin-top: 30px; text-align: center; display: flex">
+        <div>
+          <p style="font-size: 20px; font-weight: bold; color: #5a9cfc">
+            Mariposa
+          </p>
+          <hr
+            width="100px"
+            color=" #5a9cfc"
+            style="margin-top: -10px; margin-bottom: 10px"
+          />
+          <a href="https://youtu.be/N9PUbRIKYOA" style="color: #5a9cfc">
+            <img src="Mariposa.png" alt="" style="margin-left: 10px" />
+          </a>
+        </div>
+        <div>
+          <p style="font-size: 20px; font-weight: bold; color: #5a9cfc">
+            Kisah Untuk Geri
+          </p>
+          <hr
+            width="100px"
+            color=" #5a9cfc"
+            style="margin-top: -10px; margin-bottom: 10px"
+          />
+          <a href="https://youtu.be/9b9r5pn4MPE">
+            <img src="Kisah Untuk Geri.png" alt="" style="margin-left: 10px" />
+          </a>
+        </div>
+        <div>
+          <p style="font-size: 20px; font-weight: bold; color: #5a9cfc">
+            ILY From 3800FT
+          </p>
+          <hr
+            width="100px"
+            color=" #5a9cfc"
+            style="margin-top: -10px; margin-bottom: 10px"
+          />
+          <a href="https://youtu.be/tEy9M_L5r48">
+            <img src="ILY from 3800FT.png" alt="" style="margin-left: 10px" />
+          </a>
+        </div>
+        <div>
+          <p style="font-size: 20px; font-weight: bold; color: #5a9cfc">
+            London Love Story 2
+          </p>
+          <hr
+            width="100px"
+            color=" #5a9cfc"
+            style="margin-top: -10px; margin-bottom: 10px"
+          />
+          <a href="https://youtu.be/_OeuFCIpFhg">
+            <img src="London Love Story.png" alt="" style="margin-left: 10px" />
+          </a>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <h1 style="color: #5a9cfc">Audio Mars Udinus</h1>
+        <hr width="400px" color=" #5a9cfc" />
+        <h3
+          style="
+            text-align: center;
+            color: #bbbbbb;
+            margin-top: -3px;
+            margin-bottom: 30px;
+          "
+        >
+          Video Dari Folder
+        </h3>
+        <audio controls src="MARS UDINUS.mp3" type="audio/mpeg"></audio>
+      </div>
+    </div>
+    <img
+      src="GedungUdinus.jpg"
+      width="250px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 170px"
+    />
+    <img
+      src="Lab.jpg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Perpustakaan.jpeg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Temen - temen.jpg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Parkiran.webp"
+      width="250px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <div style="background-color: #5a9cfc; padding: 60px; margin-top: -50px" />
+  </body>
+</html>
