@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Mahasiswa</title>
+
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: #5a9cfc;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+      "
+    >
+      <a
+        href="D:/Udinus/PemprogramanBerbasisWeb/minggu5/index.html"
+        style="color: #5a9cfc"
+      >
+        <h1
+          style="
+            margin: 0px;
+            padding: 10px;
+            color: #ebecff;
+            padding-bottom: 5px;
+          "
+        >
+          Formulir Mahasiswa
+        </h1>
+        <p
+          style="
+            margin: 0px;
+            text-align: left;
+            padding-left: 20px;
+            color: #ebecff;
+            font-size: 16px;
+            margin-top: -10px;
+          "
+        >
+          Universitas Dian Nuswantoro
+        </p>
+      </a>
+      <div style="margin-right: 70px">
+        <a
+          href="https://www.instagram.com/dhsbllaaa_/?igshid=YmMyMTA2M2Y%3D"
+          style="color: #5a9cfc"
+        >
+          <img
+            src="instagramm.png"
+            alt=""
+            width="30px"
+            height="30px"
+            style="margin-top: 35px"
+          />
+        </a>
+        <a href="https://github.com/DheaSabillaa" style="color: #5a9cfc">
+          <img
+            src="github.png"
+            alt=""
+            width="35px"
+            height="20px"
+            style="margin-bottom: 5px; margin-top: 38px"
+          />
+        </a>
+        <a href="https://medium.com/@dheasabilla" style="color: #5a9cfc">
+          <img
+            src="medium.png"
+            alt=""
+            width="60px"
+            height="35px"
+            style="margin-top: 35px; margin-left: -5px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dhea-sabilla-470a531ba"
+          style="color: #5a9cfc"
+        >
+          <img
+            src="linkedln.png"
+            alt=""
+            width="35px"
+            height="35px"
+            style="margin-top: 35px; margin-left: -10px"
+          />
+        </a>
+      </div>
+    </div>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Formulir Mahasiswa</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div
+                  class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                >
+                  <div class="contact-wrap w-100 p-md-5 p-4">
+                    <h2 class="mb-4">Formulir Mahasiswa 2022</h2>
+                    <div id="form-message-success" class="mb-4">
+                      Your message was sent, thank you!
+                    </div>
+                    <form
+                      action="form.php"
+                      method="POST"
+                      id="contactForm"
+                      name="contactForm"
+                      class="contactForm"
+                    >
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="name">NISN</label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="nisn"
+                              id="name"
+                              placeholder="NISN"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Asal Sekolah</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="asalsekolah"
+                              id="subject"
+                              placeholder="Asal Sekolah"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Tahun Lulus</label
+                            >
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="tahunlulus"
+                              id="subject"
+                              placeholder="Tahun Lulus"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Nama Lengkap</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="nama"
+                              id="subject"
+                              placeholder="Nama Lengkap"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">NIK</label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="nik"
+                              id="subject"
+                              placeholder="NIK"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div style="display: flex">
+                          <div class="col-md-12" style="max-width: 80%">
+                            <div class="form-group">
+                              <label class="label" for="subject"
+                                >Tempat Lahir</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="tempatlahir"
+                                id="subject"
+                                placeholder="Tempat Lahir"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12" style="max-width: 80%">
+                            <div class="form-group">
+                              <label class="label" for="subject"
+                                >Tangal dan Bulan Lahir</label
+                              >
+                              <input
+                                class="form-control"
+                                type="date"
+                                name="tanggal"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Agama</label>
+                            <select class="form-control" name="agama" id="">
+                              <option value="islam">Islam</option>
+                              <option value="kristen">Kristen</option>
+                              <option value="katolik">Katolik</option>
+                              <option value="hindu">Hindu</option>
+                              <option value="budha">Budha</option>
+                              <option value="konghucu">konghucu</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Jenis Kelamin</label
+                            >
+                            <select
+                              class="form-control"
+                              name="jeniskelamin"
+                              id=""
+                            >
+                              <option value="laki-laki">Laki - Laki</option>
+                              <option value="perempuan">Perempuan</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="#">Alamat</label>
+                            <textarea
+                              name="alamat"
+                              class="form-control"
+                              id="message"
+                              cols="30"
+                              rows="4"
+                              placeholder="Desa/Kel, Kecamatan, Kabupaten,Provinsi"
+                              required
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Email Aktif</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="emailaktif"
+                              id="subject"
+                              placeholder="Email Aktif"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Nomer HP</label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="nomerhp"
+                              id="subject"
+                              placeholder="Nomer Hp"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Nomer Kartu Keluarga</label
+                            >
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="nomerkartukeluarga"
+                              id="subject"
+                              placeholder="Nomer Kartu Keluarga"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Nama Ayah Kandung</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="namaayahkandung"
+                              id="subject"
+                              placeholder="Nama Ayah Kandung"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Agama</label>
+                            <select class="form-control" name="agama" id="">
+                              <option value="islam">Islam</option>
+                              <option value="kristen">Kristen</option>
+                              <option value="katolik">Katolik</option>
+                              <option value="hindu">Hindu</option>
+                              <option value="budha">Budha</option>
+                              <option value="konghucu">konghucu</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Pekerjaan</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="pekerjaan"
+                              id="subject"
+                              placeholder="Pekerjaan"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject"
+                              >Nama Ibu Kandung</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="namaibukandung"
+                              id="subject"
+                              placeholder="Nama Ibu Kandung"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Agama</label>
+                            <select class="form-control" name="agama" id="">
+                              <option value="islam">Islam</option>
+                              <option value="kristen">Kristen</option>
+                              <option value="katolik">Katolik</option>
+                              <option value="hindu">Hindu</option>
+                              <option value="budha">Budha</option>
+                              <option value="konghucu">konghucu</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Pekerjaan</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="pekerjaan"
+                              id="subject"
+                              placeholder="Pekerjaan"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Nomer HP</label>
+                            <input
+                              type="number"
+                              class="form-control"
+                              name="nomerhp"
+                              id="subject"
+                              placeholder="Nomer Hp"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="#"
+                              >Alamat Orang Tua</label
+                            >
+                            <textarea
+                              name="alamat"
+                              class="form-control"
+                              id="message"
+                              cols="30"
+                              rows="4"
+                              placeholder="Desa/Kel, Kecamatan, Kabupaten,Provinsi"
+                              required
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              name="submit"
+                              value="SUBMIT"
+                              class="btn btn-primary"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+                  <div class="info-wrap bg-primary w-100 p-md-5 p-4">
+                    <h3>Universitas Dian Nuswantoro</h3>
+                    <p class="mb-4">
+                      Universitas Dian Nuswantoro adalah salah satu perguruan
+                      tinggi swasta berakreditasi institusi A yang berada di
+                      Semarang, Indonesia.
+                    </p>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="lokasi.png"
+                          alt=""
+                          width="30px"
+                          height="30px"
+                        />
+                      </div>
+                      <div class="text pl-3">
+                        <p style="font-size: 14px">
+                          <span>Address:</span> Jl. Imam Bonjol No.207,
+                          Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang,
+                          Jawa Tengah 50131
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="phone.png"
+                          alt=""
+                          width="20px"
+                          height="20px"
+                        />
+                      </div>
+                      <div class="text pl-3">
+                        <p style="font-size: 14px">
+                          <span>Phone:</span>
+                          <a href="tel://1234567920">(024) 3517261</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="email.png"
+                          alt=""
+                          width="20px"
+                          height="18px"
+                        />
+                      </div>
+                      <div class="text pl-3">
+                        <p style="font-size: 14px">
+                          <span>Email:</span>
+                          <a href=" sekretariat@dinus.ac.id">
+                            sekretariat@dinus.ac.id</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="website.png"
+                          alt=""
+                          width="25px"
+                          height="25px"
+                        />
+                      </div>
+                      <div class="text pl-3">
+                        <p style="font-size: 14px">
+                          <span>Website:</span>
+                          <a href="https://www.dinus.ac.id/"
+                            >https://www.dinus.ac.id/</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <img
+      src="GedungUdinus.jpg"
+      width="250px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 170px"
+    />
+    <img
+      src="Lab.jpg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Perpustakaan.jpeg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Temen - temen.jpg"
+      width="200px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <img
+      src="Parkiran.webp"
+      width="250px"
+      height="150px"
+      style="margin-top: 50px; margin-left: 10px"
+    />
+    <div style="background-color: #5a9cfc; padding: 60px; margin-top: -50px" />
+  </body>
+</html>

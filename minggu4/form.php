@@ -253,6 +253,7 @@ $namaibukandung=$_POST['namaibukandung'];
     </div>
     <div style="   
         background-color: #5a9cfc;
-        padding: 20px;"></div>
+        padding: 20px;">    
+    </div>
   </body>
 </html>
