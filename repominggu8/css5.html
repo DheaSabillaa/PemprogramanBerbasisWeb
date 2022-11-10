@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contoh Inline CSS</title>
+    <title>Class</title>
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +19,13 @@
         justify-content: space-between;
       }
 
-      nav {
+      .nav {
         margin-top: 20px;
         margin-right: 97px;
+      }
+      .imageheader {
+        position: relative;
+        margin-left: 100px;
       }
       section {
         padding: 40px;
@@ -35,13 +39,20 @@
       h1 {
         font-size: 30px;
       }
-      article {
-        display: flex;
-        margin: 0;
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
       }
-      div {
+      .judul {
+        font-weight: bold;
+      }
+      .footer {
+        background-color: #11aeef;
+        padding: 20px;
         text-align: center;
-        margin-left: 20px;
+        color: white;
+        margin-bottom: 0;
       }
       @media (max-width: 600px) {
         nav,
@@ -55,12 +66,12 @@
   <body>
     <header>
       <img
-        style="position: relative; margin-left: 100px"
+        class="imageheader"
         src="image/Icon Navbar.png"
         height="70px"
         width="250px"
       />
-      <nav>
+      <nav class="nav">
         <a href="D:/Udinus/PemprogramanBerbasisWeb/repominggu8/css1.html"
           >Css1</a
         >
@@ -87,16 +98,85 @@
         >
       </nav>
     </header>
-    <section></section>
-    <footer
-      style="
-        background-color: #11aeef;
-        padding: 20px;
-        text-align: center;
-        color: white;
-        margin-bottom: 0;
-      "
-    >
+    <section>
+      <h1>5 Bahasa Pemprograman</h1>
+      <article>
+        <div>
+          <p class="judul">1. Java</p>
+          <p>
+            Java merupakan bahasa pemrograman yang dapat dijalankan di berbagai
+            platform, dari mulai PC sampai perangkat mobile. Bahasa pemrograman
+            ini awalnya dikembangkan <br />
+            pada The Green Project pada tahun 1991 oleh Sun Microsystem yang
+            kemudian dilepas pada Oracle. Nama Java sendiri dipilih karena salah
+            seorang pendiri Java, <br />
+            James Gosling, sangat menyukai kopi murni yang langsung digiling
+            dari mesin giling (kopi tubruk) dimana kopi jenis ini berasal dari
+            pulau Jawa di Indonesia.
+          </p>
+          <img src="image/Java.png" alt="" width="300px" height="190px" />
+        </div>
+        <div>
+          <p class="judul">2. C</p>
+          <p>
+            Bahasa C ini termasuk bahasa pemrograman tertua yang pernah ada.
+            Bahasa pemrograman C ini dikembangkan dari sekitar tahun 70-an.
+            Pembuat bahasa C adalah Dennis Ritchie. Bahasa C menjadi bahasa
+            pemrograman yang populer di Indonesia karena hampir sebagian besar
+            perguruan tinggi jurusan IT ataupun lembaga kursus pemrograman
+            menggunakan bahasa ini untuk dipelajari pertama kali sebelum
+            mempelajari bahasa pemrograman yang lain. Bukan tanpa sebab bahasa C
+            ini menjadi dasar untuk mempelajari bahasa pemrograman yang lain,
+            karena memang bahasa C ini merupakan "bapak" dari bahasa pemrograman
+            lain seperi C#, Java, C++, dan lain sebagainya.
+          </p>
+          <img src="image/C.png" alt="" width="280px" height="190px" />
+        </div>
+        <div>
+          <p class="judul">3. Python</p>
+          <p>
+            Python adalah bahasa pemrograman tujuan umum yang ditafsirkan,
+            tingkat tinggi. Dibuat oleh Guido van Rossum dan pertama kali
+            dirilis pada tahun 1991, <br />
+            filosofi desain Python menekankan keterbacaan kode dengan penggunaan
+            spasi putih yang signifikan.
+          </p>
+          <img src="image/phyton.png" alt="" width="300px" height="280px" />
+        </div>
+        <div>
+          <p class="judul">4. Java Script</p>
+          <p>
+            Pada tahun 1994 JavaScript mulai dikenal, pada saat itu web dan
+            internet sudah mulai berkembang. JavaScript didesain oleh Brendan
+            Eich yang merupakan <br />
+            karyawan Netscape. Transformasi nama JavaScript, dimulai dari Mocha,
+            Mona, LiveScript, hingga akhirnya resmi bernama JavaScript. <br />
+            JavaScript adalah suatu bahasa pemrograman tingkat tinggi dan
+            dinamis. JavaScript populer di internet dan dapat bekerja di
+            sebagian besar penjelajah web <br />
+            populer seperti Google Chrome, Internet Explorer, Mozilla Firefox,
+            Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman
+            web menggunakan tag script
+          </p>
+          <img src="image/JavaScript.png" alt="" width="200px" height="190px" />
+        </div>
+        <div>
+          <p class="judul">5. C++</p>
+          <p>
+            C++ merupakan bahasa pemrograman pengembangan dari bahasa C. C++ dan
+            C memiliki sintaks penulisan yang hampir sama, meski begitu kedua
+            bahasa pemrograman ini memiliki perbedaan pada penyelesaian
+            masalahnya. Pada bahasa C penyelesaian masalah dilakukan dengan
+            membagi-bagi kedalam sub-sub masalah yang lebih kecil lagi atau bisa
+            disebut bahasa pemrograman prosedural, sedangakan C++ berorientasi
+            pada objek dimana permasalahan dibagi-bagi kedalam class-class. C++
+            pertama kali dikembangkan oleh Bjarne Stroustrup.
+          </p>
+          <img src="image/C++.png" alt="" width="200px" height="190px" />
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
       <p>Copyright@dheasabilla2022</p>
     </footer>
   </body>

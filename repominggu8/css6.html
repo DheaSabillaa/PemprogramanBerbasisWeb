@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contoh Inline CSS</title>
+    <title>ID</title>
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,10 @@
         display: flex;
         justify-content: space-between;
       }
-
+      #imgnavbar {
+        position: relative;
+        margin-left: 100px;
+      }
       nav {
         margin-top: 20px;
         margin-right: 97px;
@@ -35,14 +38,15 @@
       h1 {
         font-size: 30px;
       }
-      article {
-        display: flex;
-        margin: 0;
+      #judul {
+        font-weight: bold;
       }
-      div {
-        text-align: center;
-        margin-left: 20px;
+      #artikel {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
       }
+
       @media (max-width: 600px) {
         nav,
         article {
@@ -55,7 +59,7 @@
   <body>
     <header>
       <img
-        style="position: relative; margin-left: 100px"
+        id="imgnavbar"
         src="image/Icon Navbar.png"
         height="70px"
         width="250px"
@@ -87,7 +91,216 @@
         >
       </nav>
     </header>
-    <section></section>
+    <section>
+      <h1>Software</h1>
+      <article>
+        <div>
+          <p id="judul">Pengertian Software</p>
+          <p>
+            Software adalah data yang diprogram, disimpan, dan diformat secara
+            digital dengan fungsi tertentu. Perangkat ini sendiri tidak memiliki
+            bentuk fisik, Anda bisa mengoperasikannya lewat perangkat komputer.
+            Untuk pembuatannya sendiri, perangkat ini memerlukan bahasa
+            pemrograman yang ditulis oleh seorang pemrogram/orang yang ahli akan
+            bidang tersebut. Selanjutnya, perangkat tersebut dikompilasikan
+            memakai aplikasi kompiler agat dapat menjadi kode yang bisa dikenali
+            oleh mesin hardware/ perangkat keras. Yang dimaksud
+            hardware/perangkat keras disini adalah Personal Computer/komputer.
+          </p>
+          <img id="artikel" src="image/software.jpg" alt="" />
+        </div>
+        <div>
+          <p id="judul">Fungsi Software</p>
+          <p>
+            Sebenarnya dari pengertian software yang sudah dijelaskan di atas,
+            Anda sudah bisa mengetahui apa saja fungsi software yang ada pada
+            sistem operasi komputer. Namun, agar lebih jelasnya Anda bisa
+            menyimak beberapa fungsi utama dari software selengkapnya di bawah
+            ini:
+          </p>
+          <ul>
+            <li type="1">
+              Software berfungsi sebagai dasar kebutuhan komputer agar dapat
+              dioperasikan dengan baik.
+            </li>
+            <li type="1">
+              Software memiliki fungsi dalam mengatur hardware/perangkat keras
+              yang ada pada komputer. Dengan begitu, komputer yang digunakan
+              dapat bekerja dengan baik sesuai pekerjaan apa yang dibutuhkan.
+            </li>
+            <li type="1">
+              Software juga dapat digunakan sebagai penghubung antara beberapa
+              software yang lain dengan hardware komputer.
+            </li>
+            <li type="1">
+              Software juga dapat berfungsi sebagai penerjemah perintah pada
+              software lain yang ada dalam bahasa mesin. Dengan begitu, hardware
+              pada komputer pun bisa mengerti dan menerimanya dengan baik.
+            </li>
+            <li type="1">
+              Selain itu, perangkat lunak komputer ini juga dapat Anda gunakan
+              dalam mengindentifikasi sebuah program di dalam komputer.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p id="judul">Pembagian Software Berdasarkan Jenisnya</p>
+          <p>
+            Jika dilihat secara umum, perangkat lunak terbagi menjadi tiga
+            jenis. Di bawah ini beberapa jenis tersebut:
+          </p>
+          <ul>
+            <li type="1">
+              <summary>Sistem Operasi (Operating System)</summary>
+              <details>
+                Perangkat lunak jenis ini digunakan untuk mengatur setiap
+                perangkat keras yang sudah terhubung dengan CPU komputer. Selain
+                itu, ia juga berfungsi dalam menerjemahkan aktivitas serta
+                mengatur seluruh proses yang terjadi dan diperintahkan oleh user
+                pada CPU sehingga perintah user tersebut dapat dikerjakan
+                komputer dengan baik.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Bahasa Pemrograman (Programming Language)</summary>
+              <details>
+                Jenis perangkat lunak yang satu ini adalah bahasa yang digunakan
+                dalam pembuatan sebuah program. Jika ditelusuri berdasarkan
+                contohnya, terdapat beberapa macam bahasa yang bisa Anda
+                ketahui. Seperti JAVA, PHP, HTML, C, C++, dan masih banyak
+                lainnya. Dalam membuat bahasa pemrograman ini nantinya masih
+                memerlukan perangkat lunak khusus untuk merancang program sesuai
+                metode dan struktur yang ada pada bahasa pemrograman itu
+                sendiri.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Program Aplikasi</summary>
+              <details>
+                Program aplikasi disini merupakan sebuah perangkat lunak yang
+                umumnya sudah banyak digunakan dalam menyelesaikan tugas-tuigas
+                tertentu. Dalam hal ini software dapat berfungsi sesuai dengan
+                tujuan pembuatannya. Salah satu contohnya adalah Excel,
+                Microsoft Word, Calculator, dan yang lainnya.
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p id="judul">
+            Jenis Software/Perangkat Lunak Berdasarkan Distribusinya
+          </p>
+          <p>
+            Selain beberapa jenis perangkat lunak yang dijelaskan di atas, Anda
+            juga perlu mengetahui beberapa jenis software yang dibedakan
+            berdasarkan distribusinya. Di bawah ini beberapa pengelompokannya
+            yang bisa Anda simak:
+          </p>
+          <ul>
+            <li type="1">
+              <summary>Firmware</summary>
+              <details>
+                Merupakan jenis penyimpanan perangkat lunak yang hanya bisa
+                dibaca. Anda tidak dapat mengubah sifat tersebut sehingga tidak
+                perlu lagi melakukan modifikasi maupun pengembangan lebih lanjut
+                meskipun terjadi masalah pada fungsinya.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Freeware</summary>
+              <details>
+                Merupakan salah satu jenis software yang tidak memiliki batas
+                waktu tertentu. Akan tetapi, kebanyakan software jenis ini
+                memiliki fitur yang tidak begitu lengkap sehingga penggunaannya
+                pun kurang maksimal.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Adware</summary>
+              <details>
+                Jenis perangkat lunak ini dapat diperoleh serta digunakan tanpa
+                biaya. Akan tetapi, perangkat lunak ini masih menyediakan
+                kompensasi dengan adanya iklan yang muncul pada perangkat
+                komputer yang digunakan.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Opensoure</summary>
+              <details>
+                Yakni sejenis perangkat lunak yang dapat dibuka kode sumbernya.
+                Anda juga bisa mengubah, meningkatkan, hingga
+                menyebarluaskannya. Umumnya, software jenis ini diperoleh tanpa
+                biaya dan dikembangkan oleh orang lain menggunakan lisensi yang
+                bernama GPL (General Public License).
+              </details>
+            </li>
+            <li type="1">
+              <summary>Malware</summary>
+              <details>
+                Malware merupakan salah satu jenis dari software yang dianggap
+                berbahaya dan bisa merusak apabila disalahgunakan
+                penggunaannya.perangkat lunak apa pun yang sengaja dirancang
+                untuk menyebabkan kerusakan pada komputer, peladen, klien, atau
+                jaringan komputer Berbagai jenis malware ada, termasuk virus
+                komputer
+              </details>
+            </li>
+            <li type="1">
+              <summary>Shareware</summary>
+              <details>
+                Shareware merupakan sebuah perangkat lunak yang dapat digunakan
+                untuk keperluan tertentu. Anda bisa menggunakannya secara
+                gratis. Pada umumnya, jenis perangkat lunak yang satu ini
+                digunakan sebagai demonstrasi dengan fitur dan waktu pengguaan
+                yang terbatas.
+              </details>
+            </li>
+            <li type="1">
+              <summary>Spyware</summary>
+              <details>
+                Spyware adalah software yang khusus digunakan dalam memata-matai
+                setiap aktivitas pengguna komputer.teknologi informasi yang
+                mengacu kepada salah satu bentuk program berbahaya yang memasang
+                dirinya sendiri ke dalam sebuah sistem untuk mencuri data
+                pengguna atau merusak sistem pengguna tersebut.
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p id="judul">Beberapa Contoh Software</p>
+          <p>
+            Dari beberapa penjelasan lengkap mengenai software di atas, kurang
+            lengkap rasanya apabila Anda belum mengetahui contoh software itu
+            sendiri. Di bawah ini merupakan contohnya berdasarkan fungsinya:
+          </p>
+          <ul>
+            <li>
+              Microsoft Office Word <br />
+              Software yang satu ini bisa Anda gunakan untuk mengetik dan
+              mengedit sebuah dokumen dalam tampilan kertas.
+            </li>
+            <li>
+              Microsoft Office Powerpoint <br />
+              Software yang digunakan untuk membuat sebuah presentasi. Anda bisa
+              menggunakannya untuk mengedit foto, membuat video, dan masih
+              banyak lagi lainnya.
+            </li>
+            <li>
+              Microsoft Excell <br />
+              Tidak jauh berbeda dengan Microsoft Word, perangkat ini digunakan
+              untuk mengedit serta membuat sebuah dokumen dengan tampilan kolom.
+            </li>
+            <li>
+              Mozilla Firefox <br />
+              Sebuah software yang berguna yang dapat Anda gunakan sebagai
+              peramban web lintas platform bebas dengan sumber terbuka. Itulah
+              beberapa contoh software/perangkat lunak yang bisa Anda ketahui
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
     <footer
       style="
         background-color: #11aeef;
